@@ -1,0 +1,9 @@
+[Version]
+AddConfig = True
+Major = 1
+Minor = 0
+Patch = 1
+Pre = -1
+Meta = 
+Type = 0
+

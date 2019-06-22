@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cave.InternetX", "Cave.InternetX\Cave.InternetX.csproj", "{027600EC-5A5F-449E-8B2D-9705B603F0AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cave.Imscp", "Cave.Imscp\Cave.Imscp.csproj", "{2FC1BFBE-10D8-443C-9288-FA63F23CE55A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cave.DynDns", "Cave.DynDns\Cave.DynDns.csproj", "{D7B70785-374F-4C0C-9D52-84CD948B1BB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cave.DynDns.Server", "Cave.DynDns.Server\Cave.DynDns.Server.csproj", "{802D12CA-1B9D-41A1-87FB-E5332F04ADAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cave.DynDns.Client", "Cave.DynDns.Client\Cave.DynDns.Client.csproj", "{AFD11153-745A-4AF4-AECF-E78A0CEBD2BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cave.LetsEncrypt", "Cave.LetsEncrypt\Cave.LetsEncrypt.csproj", "{83C40B3D-7390-4461-B3B9-07689932745A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cave.AutoDns", "Cave.AutoDns\Cave.AutoDns.csproj", "{BDF98F89-1792-4F18-88A3-BD2DB1C37115}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{027600EC-5A5F-449E-8B2D-9705B603F0AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027600EC-5A5F-449E-8B2D-9705B603F0AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027600EC-5A5F-449E-8B2D-9705B603F0AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027600EC-5A5F-449E-8B2D-9705B603F0AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FC1BFBE-10D8-443C-9288-FA63F23CE55A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FC1BFBE-10D8-443C-9288-FA63F23CE55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FC1BFBE-10D8-443C-9288-FA63F23CE55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FC1BFBE-10D8-443C-9288-FA63F23CE55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7B70785-374F-4C0C-9D52-84CD948B1BB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7B70785-374F-4C0C-9D52-84CD948B1BB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7B70785-374F-4C0C-9D52-84CD948B1BB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7B70785-374F-4C0C-9D52-84CD948B1BB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{802D12CA-1B9D-41A1-87FB-E5332F04ADAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{802D12CA-1B9D-41A1-87FB-E5332F04ADAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{802D12CA-1B9D-41A1-87FB-E5332F04ADAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{802D12CA-1B9D-41A1-87FB-E5332F04ADAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD11153-745A-4AF4-AECF-E78A0CEBD2BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD11153-745A-4AF4-AECF-E78A0CEBD2BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD11153-745A-4AF4-AECF-E78A0CEBD2BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD11153-745A-4AF4-AECF-E78A0CEBD2BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83C40B3D-7390-4461-B3B9-07689932745A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83C40B3D-7390-4461-B3B9-07689932745A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83C40B3D-7390-4461-B3B9-07689932745A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83C40B3D-7390-4461-B3B9-07689932745A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDF98F89-1792-4F18-88A3-BD2DB1C37115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF98F89-1792-4F18-88A3-BD2DB1C37115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF98F89-1792-4F18-88A3-BD2DB1C37115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF98F89-1792-4F18-88A3-BD2DB1C37115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2A260098-3200-419B-927D-B74509930196}
+	EndGlobalSection
+EndGlobal
